@@ -165,3 +165,6 @@ scene.setBackgroundImage(img`
     `)
 controller.moveSprite(mySprite)
 scene.setBackgroundColor(9)
+tiles.setCurrentTilemap(tilemap`level1`)
+scene.cameraFollowSprite(mySprite)
+tiles.placeOnRandomTile(mySprite, sprites.swamp.swampTile3)
