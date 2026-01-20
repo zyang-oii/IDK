@@ -442,5 +442,5 @@ for (let index = 0; index < 20; index++) {
         `, SpriteKind.Enemy)
     tiles.placeOnRandomTile(object, sprites.castle.tileGrass2)
 }
-tiles.placeOnRandomTile(mySprite, sprites.swamp.swampTile3)
+tiles.placeOnRandomTile(mySprite, sprites.castle.tileGrass2)
 music.play(music.stringPlayable("C D D D E D D C ", 120), music.PlaybackMode.LoopingInBackground)
